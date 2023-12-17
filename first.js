@@ -1,3 +1,8 @@
+JavaScript Series-
+
+Variables & Data Types
+Operators & Conditionals
+
 // // // // // //Arithimetic Operators
 
 // // // // // let a=6;
