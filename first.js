@@ -22,6 +22,10 @@
 // let b=2;
 
 // console.log("a=b",a,"&b=",b);
+/*
+let a=6;
+let b=2;
+console.log("a=b",a,"b=",b);*/
 
 // Assignment Operator
 
@@ -288,3 +292,17 @@ else{
 // console.log(typeof profile["isFollow"]);
 
 // console.log("Nishant"); //this is coomment section.
+
+// #Question: write a code if and else statement uses.
+/*
+let age=prompt("Enter a age");
+
+if(age>=18){
+    console.log("Enter the pub");
+}
+
+else{
+    console.log("You can not enter");
+}*/
+
+

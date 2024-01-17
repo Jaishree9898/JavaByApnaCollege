@@ -6,6 +6,8 @@ console.log(heroes) */
 let marks=[89,23,55,21,88,43];
 console.log(marks); */
 
+
+
 /*
 let cities=["delhi","gwalior","mumbai", "gurgaon"];
 for(let city of cities){
@@ -48,6 +50,8 @@ for(let i=0; i<items.length; i++){
 }
 console.log(items);
 */
+
+
 
 // Array Methods
 
@@ -97,6 +101,83 @@ let companies=["Bloomburg","Microsoft","Uber","Google","IBM","Netflix"];
 //companies.splice(2,1,"ola")
 companies.push("Amazon")
 console.log(companies); */
+
+/*
+let arr1=[1,2,3,4,5,6,7,8];
+let arr2=[9,10,11,12,13,14,15];
+console.log(arr1.join('and')); */
+
+// #Join 
+/*
+let val1=[1,2,3,4,5];
+console.log(typeof val1);*/
+
+// #map
+/*
+let maths=[1,4,9,16,25];
+console.log(maths.map(Math.sqrt)); */
+
+//  #Reverse
+/*
+let maths=[1,4,9,16,25];
+console.log(maths.reverse()); */
+
+// #shift
+/*
+let maths=[1,4,9,16,25];
+console.log(maths.shift());*/
+
+// #sort
+/*
+let names=['3','2','6','5'];
+console.log(names.sort());
+console.log(names.reverse(names.sort())); */
+
+// #unshift
+/*
+let fruit=['apple','grapes','orange','guava'];
+fruit.unshift('apple','grapes2');
+console.log(fruit); */
+
+// #split
+/*
+let name='jaishree';
+let array1=name.split('');
+console.log(array1); */
+ 
+// #Forof
+/*
+let fruit=['apple','grapes','guava'];
+let Upperfruit=[];
+for(const jais of fruit){
+    Upperfruit.push(jais.toUpperCase());
+}
+console.log(Upperfruit);*/
+
+// #Break and Continue
+/*
+for (let i=0; i<=5; i++){
+    if(i==3){
+        break;
+    }
+    console.log(i);
+}*/
+/*
+let fruits=["apple","banana","orange","papaya","pineapple"];
+let upperFruit=[];
+
+for(const fruit of fruits){
+    upperFruit.push(fruit.toUpperCase());
+}
+console.log(upperFruit);*/
+/*
+for (let i=0; i<=5; i++){
+    if(i==3){
+        //break;
+        //continue;
+    }
+    console.log(i);
+}*/
 
 
 
