@@ -149,29 +149,72 @@ calculator using return type
 */
 /*
 function sum(val1,val2){
-    let result=val1+val2;
+   let result=val1+val2;
     return result;
 }
 
-let add=sum(10,25);
-console.log(add); */
+let add=sum(10,45);
+console.log(add);
+*/
+/*
+function sub(val1,val2){
+    let result=val1-val2;
+    return result;
+}
 
-function cal(val1,val2){
-    let add=val1+val2;
-    let sub=val1-val2;
-    let mul=val1*val2;
-    let div=val1/val2;
-    let mod=val1%val2;
+let minus=sub(30,34);
+console.log(minus);
+*/
 
-    }
+// Multiplication
+/*
+function mul(val1,val2,val3){
+    result=val1*val2*val3;
+    return result;
+}
+let into=mul(34,23,45);
+console.log(into);
+*/
+// Divide
+/*
+function div(val1,val2){
+    result=val1/val2;
+    return result;
+}
+let by=div(12,6);
+console.log(by); */
 
-    console.log(add);
-    console.log(sub);
-    console.log(mul);
-    console.log(mod);
-    console.log(div);
+// Modulo
+/*
+function mod(val1,val2){
+    result=val1%val2;
+    return result;
+}
+let modd=mod(34,54);
+console.log(modd); */
 
-add(10,20);
+/*
+let score=prompt("Enter a number");
+if(score==10 || score==100){
+    console.log("Grade A");
+}
+else if(score==20 || score==90){
+    console.log("Grade B");
+}
+
+else if(score==30 || score==80){
+    console.log("Grade C");
+}
+
+else if(score==40 || score==70){
+    console.log("Grade D");
+}
+
+else if(score==50 || score==60){
+    console.log("Grade E");
+}
+*/
+
 
 
 
