@@ -214,28 +214,16 @@ else if(score==50 || score==60){
     console.log("Grade E");
 }
 */
+// String
+/*
+function URL(url,domain){
+    let con="https://";
+    let result=con+url+domain;
+    return result;
+}
+
+let jaishreesite=URL('jaishree','.me');
+console.log(jaishreesite);  */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
